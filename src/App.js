@@ -5,11 +5,11 @@ import ShopPage from "./pages/ShopPage";
 import CategoryPage from "./pages/CategoryPage";
 import Product from "./pages/Product";
 import CartPage from "./pages/CartPage";
-import LoginPage from "./pages/LoginPage";
 import Footer from "./components/Footer/Footer";
 import men_banner from './assets/banner_mens.png';
 import women_banner from './assets/banner_women.png';
 import kids_banner from './assets/banner_kids.png'
+import LoginSignUp from "./pages/LoginSignUp";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <Route path=":productId" element={<Product />} />
           </Route>
           <Route path="/cart" element={<CartPage/>}/>
-          <Route path="/login" element={<LoginPage/>}/>
+          <Route path="/login" element={<LoginSignUp/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

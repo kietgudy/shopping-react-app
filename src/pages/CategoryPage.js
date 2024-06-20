@@ -35,6 +35,7 @@ const CategoryPage = (props) => {
           }
         })}
       </div>
+      <div className="category-loadmore">Load more</div>
     </div>
   );
 };
