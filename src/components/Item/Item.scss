@@ -1,8 +1,11 @@
-p {
+.item p {
   margin: 6px 0;
 }
+.item img {
+    width: 100%;
+}
 .item {
-  width: 350px;
+  width: 260px;
   .item-prices {
     display: flex;
     gap: 20px;
