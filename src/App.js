@@ -6,6 +6,7 @@ import CategoryPage from "./pages/CategoryPage";
 import Product from "./pages/Product";
 import CartPage from "./pages/CartPage";
 import LoginPage from "./pages/LoginPage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/cart" element={<CartPage/>}/>
           <Route path="/login" element={<LoginPage/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { useContext } from "react";
+import "./styles/CategoryPage.scss";
+import { ShopContext } from "../context/ShopContext";
 
-const CategoryPage = () => {
-    return (
-        <div>
-            CategoryPage
-        </div>
-    );
+const CategoryPage = (props) => {
+  const { all_product } = useContext(ShopContext);
+  return <div className="category-page">CategoryPage</div>;
 };
 
 export default CategoryPage;
