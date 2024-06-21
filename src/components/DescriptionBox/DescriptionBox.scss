@@ -1,0 +1,27 @@
+.desc-box {
+    margin: 120px 170px;
+    .desc-nav {
+        display: flex;
+        .desc-nav-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            width: 170px;
+            height: 70px;
+            border: 1px solid #d0d0d0;
+        }
+        .desc-nav-box.face {
+            background: #fbfbfb;
+            color: #555;
+        }
+    }
+    .desc-content {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border: 1px solid #d0d0d0;
+        padding: 48px;
+        padding-bottom: 40px;
+    }
+}
